@@ -2,9 +2,11 @@
     text-align: center;
     font-style: italic;
     font-weight: bold;
+    color: white;
 }
 body {
-    background: #000000 url('images/Background.jpg');
+    background-image: url(images/BG.jpg);
+    background-color: #000000;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: auto;
@@ -22,38 +24,22 @@ body {
     top: 530px;
     font-style: italic;
     font-size: 43px;
+    color: white;
 }
 .side-context {
     position: absolute;
     left: 38%;
     font-size: large;
+    color: white;
 }
 .side-head {
     position: absolute;
     left: 38%;
     font-style: italic;
     text-align: bold;
-}
-.arvo-regular {
-  font-family: "Arvo", serif;
-  font-weight: 400;
-  font-style: normal;
+    color: white;
 }
 
-.arvo-bold {
-  font-family: "Arvo", serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.arvo-regular-italic {
-  font-family: "Arvo", serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.arvo-bold-italic {
-  font-family: "Arvo", serif;
-  font-weight: 700;
-  font-style: italic;
+p {
+  color: white;
 }
